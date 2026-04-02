@@ -17,3 +17,7 @@ const userSchema=new mongoose.Schema({
     email:String,
      rollnumber:Number,
    year: Number})
+   const User=mongoose.model("user",userSchema);
+    const Employe=mongoose.model("employe",userSchema);
+    const user1=new User({name: "geethika",email:"geethikakotu@gmail.com", rollnumber:29,year:3})
+    user1.save();
