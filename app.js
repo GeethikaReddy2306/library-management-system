@@ -24,4 +24,4 @@ const userSchema=new mongoose.Schema({
 User.insertMany([{name: "geethika",email:"geethikakotu@gmail.com", rollnumber:29,year:3,booktaken:4,bookpreviousl:0},
   {name: "kavya",email:"kavya@gmail.com", rollnumber:20,year:3,booktaken:6,bookpreviousl:1},
    {name: "nikitha",email:"nikitha@gmail.com", rollnumber:81,year:3},{name: "deepika",email:"deepika@gmail.com", rollnumber:80,year:3,booktaken:10,bookpreviousl:3},
-  {name: "sai",email:"sai@gmail.com", rollnumber:21,year:2}])
+  {name: "sai",email:"sai@gmail.com", rollnumber:21,year:2,booktaken:0,bookpreviousl:1}])
