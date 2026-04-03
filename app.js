@@ -16,7 +16,9 @@ const userSchema=new mongoose.Schema({
         name:String,
     email:String,
      rollnumber:Number,
-   year: Number})
+   year: Number,
+  booktaken :Number,
+   bookpreviousl:Number})
    const User=mongoose.model("user",userSchema);
     const Employe=mongoose.model("employe",userSchema);
 User.insertMany([{name: "geethika",email:"geethikakotu@gmail.com", rollnumber:29,year:3},
