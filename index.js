@@ -17,3 +17,6 @@ app.set("view engine","ejs");
 app.get("/",(req,res)=>{
         res.send("working root");
 })
+app.listen(port,()=>{
+        console.log('server is running successfully')
+})
