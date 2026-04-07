@@ -20,3 +20,11 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
         console.log('server is running successfully')
 })
+/**MVC PATTERN:-
+ * m-model
+ * v-view
+ * c-controller
+ * a design pattern which divides into 3 component
+ * folder structure:controllers,model,route,service
+ * 
+ */
