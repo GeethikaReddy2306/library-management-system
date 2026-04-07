@@ -11,7 +11,7 @@ const studentSchema=new mongoose.Schema({
         age:Number,
 })
 const user=mongoose.model('user',studentSchema);
-user.find()
+user.findOneAndDelete("69d498a65172bf6b9b66ba9f")
 .then((res)=>{console.log(res)})
 .catch((err)=>{console.log(err)})
 
