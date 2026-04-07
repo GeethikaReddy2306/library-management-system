@@ -11,9 +11,10 @@ const studentSchema=new mongoose.Schema({
         age:Number,
 })
 const user=mongoose.model('user',studentSchema);
-user.findById('69d497e8b22cee569ecd49d9')
+user.find()
 .then((res)=>{console.log(res)})
 .catch((err)=>{console.log(err)})
+
 /*user.insertMany([
         {name:'kavya',gmail:'kavya@gmail.com',age:21},
          {name:'ramya',gmail:'ramya@gmail.com',age:25},
